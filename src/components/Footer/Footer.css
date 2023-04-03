@@ -1,0 +1,16 @@
+footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-weight: bold;
+    background: whitesmoke;
+    border-top: 2px solid rgb(70, 196, 255);
+    box-shadow: 0 0 8px black;
+}
+
+span {
+    color: rgb(70, 196, 255);
+    font-size: 20px;
+    line-height: 28px;
+}

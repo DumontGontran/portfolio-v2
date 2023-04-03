@@ -1,0 +1,115 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: "projet projet"
+        "projet projet"
+        "projet projet"
+        "projet projet"
+        "projet projet"
+        "projet projet";
+    column-gap: 20px;
+    padding-top: 20px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: "projet";
+    min-width: 500px;
+    max-width: 500px;
+    min-height: 375px;
+    max-height: 375px;
+    border: 2px dashed rgb(70, 196, 255);
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 10px rgb(70, 196, 255);
+    background-color: white;
+    transition: all 350ms ease-in-out;
+}
+
+article:hover {
+    background-color: rgb(168, 227, 255);
+    box-shadow: 0 0 15px rgb(70, 196, 255);
+    transition: all 350ms ease-in-out;
+}
+
+.projet_link {
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    margin: 20px auto;
+    min-height: 375px;
+    max-height: 375px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.projet_link:nth-child(odd) {
+    animation: projet_appear 1000ms ease-in-out forwards 0ms;
+}
+
+.projet_link:nth-child(even) {
+    animation: projet_appear 1000ms ease-in-out forwards 150ms;
+}
+
+@keyframes projet_appear {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.projet_title {
+    margin: 20px 0;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.projet_logo {
+    width: 150px;
+    height: 150px;
+    padding: 5px 5px;
+    background-color:  whitesmoke;
+    border: 1px solid rgb(70, 196, 255);
+    box-shadow: 0 0 5px black;
+}
+
+.projet_tech {
+    color: rgb(0, 34, 74);
+    font-weight: bold;
+    padding: 0 5px;
+    text-shadow: 0 0 3px rgb(70, 196, 255);
+}
+
+.projet_description {
+    color: black;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+@media screen and (max-device-width: 992px) {
+    .wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        grid-template-areas: "projet"
+            "projet"
+            "projet"
+            "projet"
+            "projet"
+            "projet"
+            "projet"
+            "projet"
+            "projet"
+            "projet"
+            "projet"
+            "projet";
+    }
+
+    article {
+        min-width: 325px;
+        max-width: 325px;
+    }
+}

@@ -1,0 +1,115 @@
+h2, h3, h4 {
+    color: rgb(70, 196, 255);
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+main {
+    margin-top: 30px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    background-color: whitesmoke;
+    border-top: 1px solid rgb(70, 196, 255);
+    border-bottom: 1px solid rgb(70, 196, 255);
+}
+
+.photo {
+    width: 250px;
+    height: 350px;
+    margin-left: 30px;
+    border: 2px dashed rgb(70, 196, 255);
+    border-radius: 10px 10px 10px 10px;
+}
+
+li {
+    text-align: left;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.description_element {
+    width: 300px;
+    margin: 10px 30px;
+}
+
+.abilities {
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.abilities_element {
+    margin: 0 auto;
+}
+
+.studies {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.studies_element {
+    width: 300px;
+    margin: 10px 30px;
+}
+
+.studies_element p:nth-last-child(1n) {
+    margin: 0 auto;
+}
+
+@media screen and (max-device-width: 992px) {
+    .presentation {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .abilities {
+        flex-direction: column;
+        padding: 0;
+        width: max-content;
+    }
+
+    .studies {
+        flex-direction: column;
+        padding: 0;
+        margin: 10px auto;
+    }
+
+    .studies_element {
+        margin: 10px auto;
+    }
+
+    .description {
+        padding: 0;
+        margin: 10px auto;
+    }
+
+    .abilities_element {
+        padding: 0;
+        margin: 10px 0;
+    }
+
+    .photo {
+        margin: 0 auto;
+    }
+}
