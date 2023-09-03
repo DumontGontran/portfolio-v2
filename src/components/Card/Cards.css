@@ -1,24 +1,17 @@
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    grid-template-areas: "projet projet"
-        "projet projet"
-        "projet projet"
-        "projet projet"
-        "projet projet"
-        "projet projet";
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding-bottom: 10px;
     column-gap: 20px;
-    padding-top: 20px;
 }
 
 article {
     display: flex;
     flex-direction: column;
     align-items: center;
-    grid-area: "projet";
-    min-width: 500px;
-    max-width: 500px;
+    min-width: 250px;
+    max-width: 250px;
     min-height: 375px;
     max-height: 375px;
     border: 2px dashed rgb(70, 196, 255);
@@ -93,19 +86,7 @@ article:hover {
 @media screen and (max-device-width: 992px) {
     .wrapper {
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(12, 1fr);
-        grid-template-areas: "projet"
-            "projet"
-            "projet"
-            "projet"
-            "projet"
-            "projet"
-            "projet"
-            "projet"
-            "projet"
-            "projet"
-            "projet"
-            "projet";
+        grid-template-rows: repeat(4, 1fr);
     }
 
     article {
