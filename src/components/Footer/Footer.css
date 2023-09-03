@@ -1,8 +1,7 @@
 footer {
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-weight: bold;
     background: whitesmoke;
     border-top: 2px solid rgb(70, 196, 255);
@@ -13,4 +12,28 @@ span {
     color: rgb(70, 196, 255);
     font-size: 20px;
     line-height: 28px;
+    padding-top: 5px;
+}
+
+.link {
+    margin: 0 20px;
+    font-size: 30px;
+    line-height: 38px;
+    text-decoration: none;
+    transition: all 350ms ease-in-out;
+}
+
+.link_linkedin {
+    color: blue;
+}
+.link_malt {
+    font-size: 20px;
+    color: salmon;
+}
+.link_github {
+    color: black;
+}
+.link:hover {
+    color: rgb(70, 196, 255);
+    transition: all 350ms ease-in-out;
 }
