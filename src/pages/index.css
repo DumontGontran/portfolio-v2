@@ -1,21 +1,14 @@
-h2, h3, h4 {
+h1, h2, h3, h4 {
     color: rgb(70, 196, 255);
     font-size: 20px;
     line-height: 28px;
     font-weight: bold;
 }
 
-main {
-    margin-top: 30px;
-}
-
 section {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    padding-bottom: 20px;
-    background-color: whitesmoke;
-    border-top: 1px solid rgb(70, 196, 255);
     border-bottom: 1px solid rgb(70, 196, 255);
 }
 
@@ -25,6 +18,12 @@ section {
     margin-left: 30px;
     border: 2px dashed rgb(70, 196, 255);
     border-radius: 10px 10px 10px 10px;
+}
+
+.skill_logo {
+    padding-right: 50px;
+    font-size: 50px;
+    line-height: 58px;
 }
 
 li {
@@ -41,7 +40,7 @@ li {
 .description {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
 
 }
 
@@ -52,20 +51,25 @@ li {
 
 .abilities {
     display: flex;
-    justify-content: space-around;
-    width: 1000px;
+    justify-content: center;
     margin: 0 auto;
 }
 
 .abilities_element {
+    list-style-type: none;
     margin: 0 auto;
+    padding-bottom: 20px;
 }
 
 .studies {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 0 auto;
     justify-content: center;
+}
+
+.studies ul {
+    margin-top: 0;
 }
 
 .studies_element {
