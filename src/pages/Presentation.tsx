@@ -1,9 +1,8 @@
-import { FaHtml5, FaCss3, FaSass } from 'react-icons/fa'
-import { SiJavascript, SiTypescript } from 'react-icons/si'
+import { SiHtml5, SiCss3, SiSass, SiJavascript, SiTypescript } from 'react-icons/si'
 import Cards from '../components/Card/Cards'
 import Footer from '../components/Footer/Footer'
 import './index.css'
-import photo from '../images/dumont-gontran.jpg'
+import photo from '../images/dumont-gontran.webp'
 
 const Presentation = () => {
     return (
@@ -24,7 +23,7 @@ const Presentation = () => {
                                 je suis prêt à relever de nouveaux défis et à travailler avec des équipes dévouées.
                             </li>
                         </ul>
-                        <img src={photo} alt='dumont-gontran' className='photo description_element' />
+                        <img src={photo} alt='dumont-gontran' className='photo' />
                         <ul className='description'>
                             <li className='description_element'>
                                 Mes compétences personnelles comprennent <strong>la curiosité, la rigueur, la persévérance, l’esprit d’équipe,
@@ -33,7 +32,7 @@ const Presentation = () => {
                             <li className='description_element'>
                                 J'ai travaillé sur de <strong>nombreux projets variés</strong>, ce qui me permet de vous proposer un <strong>service de qualité</strong> :
                                 <ul>
-                                    <li>Mise en application d'un design à partir de plans fournies.</li>
+                                    <li>Mise en application d'un design à partir de maquettes.</li>
                                     <li>Mise en place de fonctionnalités diverses.</li>
                                     <li>Optimisation en matière de référencement (SEO) !</li>
                                     <li>Possibilité de mise en ligne de l'application web sur un hébergement dédié pour vous !</li>
@@ -47,7 +46,7 @@ const Presentation = () => {
                     <div>
                         <div className='abilities'>
                             <ul>
-                                <li className='abilities_element'><FaHtml5 className='skill_logo' color='darkorange' /><FaCss3 className='skill_logo' color='royalblue' /><FaSass className='skill_logo' color='deeppink' /></li>
+                                <li className='abilities_element'><SiHtml5 className='skill_logo' color='darkorange' /><SiCss3 className='skill_logo' color='royalblue' /><SiSass className='skill_logo' color='deeppink' /></li>
                                 <li className='abilities_element'><SiJavascript className='skill_logo' color='gold' /><SiTypescript className='skill_logo' color='dodgerblue' /></li>
                             </ul>
                         </div>
