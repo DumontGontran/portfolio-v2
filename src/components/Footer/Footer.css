@@ -4,12 +4,12 @@ footer {
     justify-content: center;
     font-weight: bold;
     background: whitesmoke;
-    border-top: 2px solid rgb(70, 196, 255);
+    border-top: 2px solid #3d99dd;
     box-shadow: 0 0 8px black;
 }
 
 span {
-    color: rgb(70, 196, 255);
+    color: #3d99dd;
     font-size: 20px;
     line-height: 28px;
     padding-top: 5px;
@@ -27,6 +27,9 @@ span {
     color: blue;
 }
 .link_malt {
+    position: relative;
+    top: -7px;
+    left: 0;
     font-size: 20px;
     color: salmon;
 }
@@ -34,6 +37,6 @@ span {
     color: black;
 }
 .link:hover {
-    color: rgb(70, 196, 255);
+    color: #3d99dd;
     transition: all 350ms ease-in-out;
 }
