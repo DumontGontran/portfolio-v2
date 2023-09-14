@@ -14,45 +14,28 @@ article {
     max-width: 250px;
     min-height: 375px;
     max-height: 375px;
-    border: 2px dashed rgb(70, 196, 255);
+    border: 2px dashed #3d99dd;
     border-radius: 10px 10px 10px 10px;
-    box-shadow: 0 0 10px rgb(70, 196, 255);
+    box-shadow: 0 0 10px #3d99dd;
     background-color: white;
     transition: all 350ms ease-in-out;
 }
 
 article:hover {
     background-color: rgb(168, 227, 255);
-    box-shadow: 0 0 15px rgb(70, 196, 255);
+    box-shadow: 0 0 15px #3d99dd;
     transition: all 350ms ease-in-out;
 }
 
 .projet_link {
     display: flex;
     flex-direction: column;
-    opacity: 0;
+    opacity: 1;
     margin: 20px auto;
     min-height: 375px;
     max-height: 375px;
     align-items: center;
     text-decoration: none;
-}
-
-.projet_link:nth-child(odd) {
-    animation: projet_appear 1000ms ease-in-out forwards 0ms;
-}
-
-.projet_link:nth-child(even) {
-    animation: projet_appear 1000ms ease-in-out forwards 150ms;
-}
-
-@keyframes projet_appear {
-    from {
-        opacity: 0
-    }
-    to {
-        opacity: 1;
-    }
 }
 
 .projet_title {
@@ -66,7 +49,7 @@ article:hover {
     height: 150px;
     padding: 5px 5px;
     background-color:  whitesmoke;
-    border: 1px solid rgb(70, 196, 255);
+    border: 1px solid #3d99dd;
     box-shadow: 0 0 5px black;
 }
 
@@ -74,7 +57,7 @@ article:hover {
     color: rgb(0, 34, 74);
     font-weight: bold;
     padding: 0 5px;
-    text-shadow: 0 0 3px rgb(70, 196, 255);
+    text-shadow: 0 0 3px #3d99dd;
 }
 
 .projet_description {
@@ -83,7 +66,7 @@ article:hover {
     margin-top: 20px;
 }
 
-@media screen and (max-device-width: 992px) {
+@media screen and (max-device-width: 1080px) {
     .wrapper {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(4, 1fr);
