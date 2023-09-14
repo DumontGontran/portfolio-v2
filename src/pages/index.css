@@ -1,5 +1,5 @@
 h1, h2, h3, h4 {
-    color: rgb(70, 196, 255);
+    color: #3d99dd;
     font-size: 20px;
     line-height: 28px;
     font-weight: bold;
@@ -9,14 +9,18 @@ section {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    border-bottom: 1px solid rgb(70, 196, 255);
+    border-bottom: 1px solid #3d99dd;
 }
 
 .photo {
-    width: 250px;
-    height: 350px;
+    min-width: 229px;
+    width: 229px;
+    max-width: 229px;
+    height: 325px;
+    min-height: 325px;
+    max-height: 325px;
     margin-left: 30px;
-    border: 2px dashed rgb(70, 196, 255);
+    border: 2px dashed #3d99dd;
     border-radius: 10px 10px 10px 10px;
 }
 
@@ -81,7 +85,7 @@ li {
     margin: 0 auto;
 }
 
-@media screen and (max-device-width: 992px) {
+@media screen and (max-device-width: 1080px) {
     .presentation {
         flex-direction: column;
         padding: 0;
