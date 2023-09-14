@@ -1,8 +1,8 @@
 import { createSlice, configureStore } from '@reduxjs/toolkit'
-import booki from '../images/Booki.png'
-import pokedex from '../images/pokedex.jpg'
-import tesla from '../images/tesla.png'
-import kanap from '../images/kanap.png'
+import booki from '../images/Booki.webp'
+import pokedex from '../images/pokedex.webp'
+import tesla from '../images/tesla.webp'
+import kanap from '../images/kanap.webp'
 
 const projetsSlice = createSlice({
   name: 'Projets',
