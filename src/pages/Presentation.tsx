@@ -1,4 +1,4 @@
-import { SiHtml5, SiCss3, SiSass, SiJavascript, SiTypescript } from 'react-icons/si'
+import { SiHtml5, SiCss3, SiSass, SiJavascript, SiTypescript, SiReact } from 'react-icons/si'
 import Cards from '../components/Card/Cards'
 import Footer from '../components/Footer/Footer'
 import './index.css'
@@ -13,23 +13,21 @@ const Presentation = () => {
                     <div className='presentation'>
                         <ul className='description'>
                             <li className='description_element'>
-                                Je m'appelle <strong>Gontran DUMONT</strong>.
-                                Je suis motivé et je possède <strong>une bonne maîtrise des outils et technologies</strong> les plus récents.
+                                Gontran DUMONT, 30 ans. Bientôt 2 ans d'expériences dans le développement web.
                             </li>
                             <li className='description_element'>
-                                Mon expérience et mes compétences me permettent de <strong>fournir des solutions web modernes,
-                                    efficaces et à la pointe de la technologie</strong>.
-                                Fort de mon <strong>savoir-faire</strong> et de mon <strong>professionnalisme</strong>,
-                                je suis prêt à relever de nouveaux défis et à travailler avec des équipes dévouées.
+                            Je possède une bonne maîtrise des outils et technologies les plus récents.
                             </li>
                         </ul>
                         <img src={photo} alt='dumont-gontran' className='photo' />
                         <ul className='description'>
                             <li className='description_element'>
-                                Mes compétences personnelles comprennent <strong>la curiosité, la rigueur, la persévérance, l’esprit d’équipe,
-                                    l’intérêt pour le métier, l’adaptabilité</strong> et l’amour de l’apprentissage.
+                                Je suis curieux, rigoureux, persévérant, et je suis capable de m'adapter facilement au changement.
                             </li>
                             <li className='description_element'>
+                                Je suis prêt à relever de nouveaux défis et à travailler avec des équipes dévouées.
+                            </li>
+                            {/* <li className='description_element'>
                                 J'ai travaillé sur de <strong>nombreux projets variés</strong>, ce qui me permet de vous proposer un <strong>service de qualité</strong> :
                                 <ul>
                                     <li>Mise en application d'un design à partir de maquettes.</li>
@@ -37,32 +35,30 @@ const Presentation = () => {
                                     <li>Optimisation en matière de référencement (SEO) !</li>
                                     <li>Possibilité de mise en ligne de l'application web sur un hébergement dédié pour vous !</li>
                                 </ul>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </section>
                 <section>
-                    <h2>Mes Compétences Techniques utilisées</h2>
-                    <div>
-                        <div className='abilities'>
-                            <ul>
-                                <li className='abilities_element'><SiHtml5 className='skill_logo' color='darkorange' /><SiCss3 className='skill_logo' color='royalblue' /><SiSass className='skill_logo' color='deeppink' /></li>
-                                <li className='abilities_element'><SiJavascript className='skill_logo' color='gold' /><SiTypescript className='skill_logo' color='dodgerblue' /></li>
-                            </ul>
-                        </div>
+                    <h2>Stack Technique utilisée</h2>
+                    <div className='abilities'>
+                        <ul>
+                            <li className='abilities_element'><SiHtml5 className='skill_logo' color='darkorange' /><SiCss3 className='skill_logo' color='royalblue' /><SiSass className='skill_logo' color='deeppink' /></li>
+                            <li className='abilities_element'><SiJavascript className='skill_logo' color='gold' /><SiTypescript className='skill_logo' color='dodgerblue' /><SiReact className='skill_logo' color='dodgerblue' /></li>
+                        </ul>
                     </div>
                     <h3>Mes Formations</h3>
                     <div className='studies'>
                         <ul>
                             <li className='studies_element'>
                                 <strong>Septembre 2021 – Mai 2022</strong>
-                                <p>Titre RNCP Développeur Web - Niveau 5</p>
+                                <p>Titre RNCP Développeur Web - BAC+2</p>
                                 <p>OpenClassRooms</p>
                             </li>
                             <li className='studies_element'>
                                 <strong>2014</strong>
                                 <p>Certificat Informatique et Internet(C2i)</p>
-                                <p>Université du Mont Houy(UVHC) / Valenciennes</p>
+                                <p>UVHC(Mont Houy) / Valenciennes</p>
                             </li>
                             <li className='studies_element'>
                                 <strong>2012</strong>
