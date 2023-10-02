@@ -1,0 +1,59 @@
+.skill_logo {
+    padding-right: 50px;
+    font-size: 50px;
+    line-height: 58px;
+}
+
+.abilities {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.abilities_element {
+    list-style-type: none;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.studies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.studies ul {
+    margin-top: 0;
+}
+
+.studies_element {
+    width: 300px;
+    margin: 10px 30px;
+}
+
+.studies_element p:nth-last-child(1n) {
+    margin: 0 auto;
+}
+
+@media screen and (max-device-width: 1080px) {
+    .abilities {
+        flex-direction: column;
+        padding: 0;
+        width: max-content;
+    }
+
+    .studies {
+        flex-direction: column;
+        padding: 0;
+        margin: 10px auto;
+    }
+
+    .studies_element {
+        margin: 10px auto;
+    }
+
+    .abilities_element {
+        padding: 0;
+        margin: 10px 0;
+    }
+}
