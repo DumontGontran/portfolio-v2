@@ -1,4 +1,4 @@
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
     color: #3d99dd;
     font-size: 20px;
     line-height: 28px;
@@ -12,112 +12,6 @@ section {
     border-bottom: 1px solid #3d99dd;
 }
 
-.photo {
-    min-width: 229px;
-    width: 229px;
-    max-width: 229px;
-    height: 325px;
-    min-height: 325px;
-    max-height: 325px;
-    margin-left: 30px;
-    border: 2px dashed #3d99dd;
-    border-radius: 10px 10px 10px 10px;
-}
-
-.skill_logo {
-    padding-right: 50px;
-    font-size: 50px;
-    line-height: 58px;
-}
-
 li {
     text-align: left;
-}
-
-.presentation {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-.description {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-
-}
-
-.description_element {
-    width: 300px;
-    margin: 10px 30px;
-    font-weight: bold;
-}
-
-.abilities {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-}
-
-.abilities_element {
-    list-style-type: none;
-    margin: 0 auto;
-    padding-bottom: 20px;
-}
-
-.studies {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.studies ul {
-    margin-top: 0;
-}
-
-.studies_element {
-    width: 300px;
-    margin: 10px 30px;
-}
-
-.studies_element p:nth-last-child(1n) {
-    margin: 0 auto;
-}
-
-@media screen and (max-device-width: 1080px) {
-    .presentation {
-        flex-direction: column;
-        padding: 0;
-    }
-
-    .abilities {
-        flex-direction: column;
-        padding: 0;
-        width: max-content;
-    }
-
-    .studies {
-        flex-direction: column;
-        padding: 0;
-        margin: 10px auto;
-    }
-
-    .studies_element {
-        margin: 10px auto;
-    }
-
-    .description {
-        padding: 0;
-        margin: 10px auto;
-    }
-
-    .abilities_element {
-        padding: 0;
-        margin: 10px 0;
-    }
-
-    .photo {
-        margin: 0 auto;
-    }
 }
