@@ -2,8 +2,9 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    padding-bottom: 10px;
-    column-gap: 20px;
+    padding-bottom: 20px;
+    column-gap: 100px;
+    margin: auto;
 }
 
 article {
@@ -32,6 +33,8 @@ article:hover {
     flex-direction: column;
     opacity: 1;
     margin: 20px auto;
+    min-width: 250px;
+    max-width: 250px;
     min-height: 375px;
     max-height: 375px;
     align-items: center;
@@ -69,11 +72,11 @@ article:hover {
 @media screen and (max-device-width: 1080px) {
     .wrapper {
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
     }
 
     article {
-        min-width: 325px;
-        max-width: 325px;
+        min-width: 250px;
+        max-width: 250px;
     }
 }
