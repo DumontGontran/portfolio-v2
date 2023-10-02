@@ -1,0 +1,60 @@
+.services_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding-bottom: 20px;
+    column-gap: 100px;
+    margin: auto;
+}
+
+.services_element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 200px;
+    max-height: 200px;
+    border: 2px solid #3d99dd;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 10px #3d99dd;
+    background-color: white;
+    transition: all 350ms ease-in-out;
+    cursor: pointer;
+}
+
+.services_element:hover {
+    background-color: rgb(168, 227, 255);
+    box-shadow: 0 0 15px #3d99dd;
+    transition: all 350ms ease-in-out;
+}
+
+.services_offer {
+    color: rgb(0, 34, 74);
+    font-weight: bold;
+    padding: 5px 5px;
+    text-shadow: 0 0 3px #3d99dd;
+}
+
+.services_logo {
+    color:#3d99dd;
+    width: 50px;
+    height: 50px;
+    padding: 20px 0;
+}
+
+.services_description {
+    color: black;
+    font-style: italic;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+@media screen and (max-device-width: 1080px) {
+    .services_wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+}
