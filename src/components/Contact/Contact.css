@@ -1,66 +1,64 @@
-form {
+.link_wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding-bottom: 50px;
+    column-gap: 50px;
+    margin: auto;
+}
+
+.link {
+    margin: 0 20px;
+    font-size: 30px;
+    line-height: 38px;
+    text-decoration: none;
+    transition: all 350ms ease-in-out;
+}
+
+.link_display {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    border: 1px dotted black;
-    width: 1080px;
 }
 
-label {
-    margin: 20px 0;
-    font-weight: bold;
-}
-
-input {
-    width: 600px;
-    border: 3px solid #3d99dd;
-    border-radius: 5px 5px 5px 5px;
-}
-
-button{
-    width: 200px;
-    height: 50px;
-    margin-top: 20px;
+.link_mail {
     color: black;
-    background-color: white;
-    font-size: 18px;
+    font-size: 50px;
+}
+
+.link_linkedin {
+    color: blue;
+    font-size: 50px;
+}
+
+.link_malt {
+    position: relative;
+    top: 5px;
+    left: 0;
+    font-size: 40px;
+    color: salmon;
+}
+
+.link_github {
+    color: black;
+    font-size: 50px;
+}
+
+.link:hover {
+    color: #3d99dd;
+    transition: all 350ms ease-in-out;
+}
+
+.link_description {
+    color: rgb(0, 34, 74);
     font-weight: bold;
-    cursor: pointer;
-    border-style: dashed;
-    transition: all 300ms ease-in-out;
-    margin-bottom: 20px;
-}
-
-button:hover {
+    padding: 10px 20px;
     text-shadow: 0 0 3px #3d99dd;
-    box-shadow: 0 0 10px #3d99dd;
-    transition: all 300ms ease-in-out;
-}
-
-textarea {
-    min-width: 600px;
-    max-width: 600px;
-    min-height: 200px;
-    max-height: 200px;
-    border: 3px solid #3d99dd;
-    border-radius: 10px 10px 10px 10px;
 }
 
 @media screen and (max-device-width: 1080px) {
-    form {
-        width: 320px;
-    }
-
-    input {
-        width: 275px;
-    }
-
-    textarea {
-        min-width: 275px;
-    max-width: 275px;
-    min-height: 200px;
-    max-height: 200px;
+    .link_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        row-gap: 50px;
     }
 }
