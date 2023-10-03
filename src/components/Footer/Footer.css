@@ -14,29 +14,3 @@ span {
     line-height: 28px;
     padding-top: 5px;
 }
-
-.link {
-    margin: 0 20px;
-    font-size: 30px;
-    line-height: 38px;
-    text-decoration: none;
-    transition: all 350ms ease-in-out;
-}
-
-.link_linkedin {
-    color: blue;
-}
-.link_malt {
-    position: relative;
-    top: -7px;
-    left: 0;
-    font-size: 20px;
-    color: salmon;
-}
-.link_github {
-    color: black;
-}
-.link:hover {
-    color: #3d99dd;
-    transition: all 350ms ease-in-out;
-}
