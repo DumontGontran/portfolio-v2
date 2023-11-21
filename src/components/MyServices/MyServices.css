@@ -21,40 +21,67 @@
     border-radius: 10px 10px 10px 10px;
     box-shadow: 0 0 10px #3d99dd;
     background-color: white;
-    transition: all 350ms ease-in-out;
+    transition: all 250ms ease-in-out;
     cursor: pointer;
 }
 
 .services_element:hover {
     background-color: rgb(168, 227, 255);
     box-shadow: 0 0 15px #3d99dd;
-    transition: all 350ms ease-in-out;
+    transition: all 250ms ease-in-out;
 }
 
 .services_offer {
+    margin-top:35px;
     color: rgb(0, 34, 74);
     font-weight: bold;
     padding: 5px 5px;
     text-shadow: 0 0 3px #3d99dd;
+    transition: all 250ms ease-in-out;
 }
 
 .services_logo {
-    color:#3d99dd;
+    color: #3d99dd;
     width: 50px;
     height: 50px;
-    padding: 20px 0;
+    padding-top: 20px;
 }
 
 .services_description {
+    opacity: 0;
     color: black;
     font-style: italic;
     margin-block-start: 0;
     margin-block-end: 0;
+    transition: all 250ms ease-in-out;
+}
+
+.services_element:hover .services_description {
+    opacity: 1;
+    padding-top: 10px;
+    transition: all 250ms ease-in-out;
+}
+
+.services_element:hover .services_offer {
+    margin: 0;
+    transition: all 250ms ease-in-out;
 }
 
 @media screen and (max-device-width: 1080px) {
     .services_wrapper {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(6, 1fr);
+    }
+
+    .services_description {
+        opacity: 1;
+    }
+
+    .services_offer {
+        margin-top: 0;
+    }
+
+    .services_logo {
+        padding: 20px 0;
     }
 }
