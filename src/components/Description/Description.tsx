@@ -10,7 +10,7 @@ const Description = () => {
                         <img src={photo} alt='dumont-gontran' className='photo' />
                         <ul className='description'>
                         <li className='description_element'>
-                                Gontran DUMONT, 30 ans. Bientôt 2 ans d'expériences dans le développement web.
+                                Gontran DUMONT, 30 ans. 2 ans d'expériences dans le développement web.
                             </li>
                             <li className='description_element'>
                             Je possède une bonne maîtrise des outils et technologies les plus récents.

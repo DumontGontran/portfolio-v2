@@ -12,7 +12,7 @@ const projetsSlice = createSlice({
       logo: cocktail,
       alt: 'logo-projet-cocktail',
       technos: 'React.js, CSS3',
-      description: 'Partage de cocktails',
+      description: 'Réseau pour partager vos cocktails',
       link: 'https://github.com/DumontGontran/Cocktail'
     }, {
       id: 2,
@@ -21,7 +21,7 @@ const projetsSlice = createSlice({
       alt: 'logo-projet-pokedex-classic',
       technos: 'HTML5, CSS3, Typescript',
       description: 'répertorie les 151 premiers pokémons',
-      link: 'https://github.com/DumontGontran/Pokedex-Classic'
+      link: 'https://pokedex.gontrandev.fr'
     }, {
       id: 3,
       title: 'Kanap',
