@@ -17,7 +17,7 @@ const Cards = () => {
     const projets: Array<Projet> = useSelector(() => store.getState().Projets.projets)
     return (
         <section>
-            <h3>Mes Projets</h3>
+            <h3>My Projects</h3>
             <div  className='wrapper'>
                 {projets.map((projet) =>
                     <a href={projet.link} key={projet.id} className='projet_link'>
