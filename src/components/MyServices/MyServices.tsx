@@ -5,49 +5,49 @@ import './MyServices.css'
 const MyServices = () => {
     return (
         <section>
-            <h2>Les Services Proposés</h2>
+            <h2>Services Offered</h2>
             <div className='services_wrapper'>
                 <div className='services_element'>
                     <span className='services_offer'>RESPONSIVE</span>
                     <FaDesktop className='services_logo' />
                     <p className='services_description'>
-                        Responsive sur tous les supports. Ordinateur, tablette et mobile
+                        Responsive on all media. Computer, tablet and mobile
                     </p>
                 </div>
                 <div className='services_element'>
-                    <span className='services_offer'>DÉVELOPPEMENT WEB</span>
+                    <span className='services_offer'> WEB DEVELOPMENT</span>
                     <FaDev className='services_logo' />
                     <p className='services_description'>
-                        Création de site web sur-mesure répondant aux besoins des clients
+                        Creation of tailor-made website meeting customer needs
                     </p>
                 </div>
                 <div className='services_element'>
-                    <span className='services_offer'>PROJETS WEB</span>
+                    <span className='services_offer'>WEB PROJECTS</span>
                     <FaFolder className='services_logo' />
                     <p className='services_description'>
-                        Landing page, site vitrine, e-commerce, réseaux sociaux, application web
+                        Landing page, showcase site, e-commerce, social networks, web application
                     </p>
                 </div>
                 <div className='services_element'>
-                    <span className='services_offer'>RÉFÉRENCEMENT</span>
+                    <span className='services_offer'>SEO</span>
                     <FaBullseye className='services_logo' />
                     <p className='services_description'>
-                        Code optimisé pour le référencement naturel(SEO)
+                        Code optimized for natural referencing
                     </p>
                 </div>
                 <div className='services_element'>
-                    <span className='services_offer'>ACCOMPAGNEMENT</span>
+                    <span className='services_offer'>ACCOMPANIEMENT</span>
                     <FaHandshake className='services_logo' />
                     <p className='services_description'>
-                        Communication constante avec vous sur l'avancement du projet
+                        Constant communication with you on the progress of the project
                     </p>
                 </div>
                 <div className='services_element'>
-                    <span className='services_offer'>MAINTENANCE WEB</span>
+                    <span className='services_offer'>WEB MAINTENANCE</span>
                     <FaRocket className='services_logo' />
                     <p className='services_description'>
-                        Gestion d'hébérgement, garantie d'accessibilité,
-                        intégration régulière des mises à jour de sécurité
+                        Accommodation management, accessibility guarantee,
+                        regular integration of security updates
                     </p>
                 </div>
             </div>

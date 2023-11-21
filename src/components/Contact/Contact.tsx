@@ -6,7 +6,7 @@ const Contact = () => {
 
     return (
         <section>
-            <h6>Démarrons un projet ensemble, n'hésitez pas à me contacter !</h6>
+            <h6>Let's start a project together, don't hesitate to contact me!</h6>
             <div className='link_wrapper'>
                 <div className='link_display'>
                     <span className='link_description'>Email:</span>
