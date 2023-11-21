@@ -12,7 +12,7 @@ const AbilitiesAndStudies = () => {
                         <li className='abilities_element'><SiHtml5 className='skill_logo' color='darkorange' /><SiCss3 className='skill_logo' color='royalblue' /></li>
                         <li className='abilities_element'><SiSass className='skill_logo' color='deeppink' /><SiTailwindcss className='skill_logo' color='#00DDB8' /></li>
                         <li className='abilities_element'><SiJavascript className='skill_logo' color='gold' /><SiTypescript className='skill_logo' color='dodgerblue' /></li>
-                        <li className='abilities_element'><SiReact className='skill_logo' color='dodgerblue' /><SiVuedotjs className='skill_logo' color='#00DDB8' /></li>
+                        <li className='abilities_element'><SiReact className='skill_logo' color='dodgerblue' /><SiVuedotjs className='skill_logo' color='black' fill='#00DDB8' strokeWidth='1.25' /></li>
                     </ul>
                 </div>
             </section>
