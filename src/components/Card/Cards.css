@@ -19,13 +19,13 @@ article {
     border-radius: 10px 10px 10px 10px;
     box-shadow: 0 0 10px #3d99dd;
     background-color: white;
-    transition: all 350ms ease-in-out;
+    transition: all 250ms ease-in-out;
 }
 
 article:hover {
     background-color: rgb(168, 227, 255);
     box-shadow: 0 0 15px #3d99dd;
-    transition: all 350ms ease-in-out;
+    transition: all 250ms ease-in-out;
 }
 
 .projet_link {
