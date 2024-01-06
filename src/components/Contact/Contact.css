@@ -30,12 +30,21 @@
     font-size: 50px;
 }
 
-.link_malt {
+.link_fiverr {
     position: relative;
     top: 5px;
-    left: 0;
+    left: 40px;
     font-size: 40px;
-    color: #dd7738;
+    color: white;
+    background-color: green;
+    border-radius: 20px 20px 20px 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.link_fiverr:hover {
+    background-color: #3d99dd;
+    transition: all 350ms ease-in-out;
 }
 
 .link_github {

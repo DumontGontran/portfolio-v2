@@ -13,8 +13,8 @@ const Contact = () => {
                     <a href="mailto:dumont.gontran@orange.fr" className='link link_mail'><FaEnvelopeOpenText /></a>
                 </div>
                 <div className='link_display'>
-                    <span className='link_description'>Malt:</span>
-                    <a href="https://www.malt.fr/profile/gontrandumont" className='link link_malt'>Malt</a>
+                    <span className='link_description'>Fiverr:</span>
+                    <a href="https://www.fiverr.com/dumontgontran" className='link_fiverr'>Fi</a>
                 </div>
                 <div className='link_display'>
                     <span className='link_description'>LinkedIn:</span>
