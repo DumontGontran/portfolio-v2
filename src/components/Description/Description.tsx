@@ -13,7 +13,7 @@ const Description = () => {
                         My name is Gontran DUMONT, I am 30 years old, I live in France and I have 2 years of experience in web development.
                     </li>
                     <li className='description_element'>
-                        I have significant experience in frontend and backend as well as functionality development.
+                        I have significant experience in frontend and backend development.
                     </li>
                     <li className='description_element'>
                         I am curious, rigorous, persevering, and I am able to easily adapt to change.
