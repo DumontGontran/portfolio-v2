@@ -1,8 +1,8 @@
 import { SiHtml5, SiCss3, SiJavascript, SiTypescript, SiReact, SiNodedotjs, SiExpress, SiMysql, SiMongodb } from 'react-icons/si'
 import '../../pages/index.css'
-import './AbilitiesAndStudies.css'
+import './Abilities.css'
 
-const AbilitiesAndStudies = () => {
+const Abilities = () => {
     return (
         <>
             <section>
@@ -21,30 +21,8 @@ const AbilitiesAndStudies = () => {
                     </ul>
                 </div>
             </section>
-            <section>
-                <h5>My Training</h5>
-                <div className='studies'>
-                    <ul>
-                        <li className='studies_element'>
-                            <strong>September 2021 – May 2022</strong>
-                            <p>Web Developper - RNCP level 5 title(BAC+2)</p>
-                            <p>OpenClassRooms</p>
-                        </li>
-                        <li className='studies_element'>
-                            <strong>2014</strong>
-                            <p>Computer and Internet Certificate</p>
-                            <p>UVHC(Mont Houy) / Valenciennes</p>
-                        </li>
-                        <li className='studies_element'>
-                            <strong>2012</strong>
-                            <p>Baccalaureate - Scientist</p>
-                            <p>Lycée Fénelon / Cambrai</p>
-                        </li>
-                    </ul>
-                </div>
-            </section>
         </>
     )
 }
 
-export default AbilitiesAndStudies
+export default Abilities
