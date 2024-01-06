@@ -4,7 +4,7 @@ import './Cards.css'
 import '../../pages/index.css'
 
 const Cards = () => {
-    interface Projet {
+    type Projet = {
         id: number
         title: string
         logo: string
