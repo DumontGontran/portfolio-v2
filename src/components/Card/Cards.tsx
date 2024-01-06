@@ -14,12 +14,14 @@ const Cards = () => {
         link: string
     }
 
-    const projets: Array<Projet> = useSelector(() => store.getState().Projets.projets)
+    /* const projets: Array<Projet> = useSelector(() => store.getState().Projets.projets) */
+
     return (
         <section>
             <h3>My Projects</h3>
             <div  className='wrapper'>
-                {projets.map((projet) =>
+                <p>In maintenance...</p>
+                {/* {projets.map((projet) =>
                     <a href={projet.link} key={projet.id} className='projet_link'>
                         <article>
                             <span className='projet_title'>{projet.title}</span>
@@ -30,7 +32,7 @@ const Cards = () => {
                             </div>
                         </article>
                     </a>
-                )}
+                )} */}
             </div>
         </section>
     )
