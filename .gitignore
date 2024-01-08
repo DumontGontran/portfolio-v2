@@ -21,3 +21,11 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# images
+/src/images/cocktail2.webp
+/src/images/cocktail3.webp
+/src/images/hottakes2.webp
+/src/images/hottakes3.webp
+/src/images/groupomania2.webp
+/src/images/groupomania3.webp
