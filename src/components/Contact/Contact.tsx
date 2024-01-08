@@ -14,7 +14,7 @@ const Contact = () => {
                 </div>
                 <div className='link_display'>
                     <span className='link_description'>Fiverr:</span>
-                    <a href="https://www.fiverr.com/dumontgontran" className='link_fiverr'>Fi</a>
+                    <a href="https://www.fiverr.com/dumontgontran" className='link_fiverr'>𝐟𝐢</a>
                 </div>
                 <div className='link_display'>
                     <span className='link_description'>LinkedIn:</span>
